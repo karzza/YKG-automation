@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scaffold</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<ul class=block>
+ <li><a href="/">Home</a></li>
+ <li><a href="OurMission">Our Mission</a></li>
+ <li><a href="Products">Products</a></li>
+ <li><a href="ContactUs">Contact us</a></li>
+
+
+<%= yield %>
+
+</body>
+</html>
